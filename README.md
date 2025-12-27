@@ -36,6 +36,8 @@ ProductApi/
         ├── ProductApi.Tests.csproj
         └── ProductMapperTests.cs
 
+
+
 ## Pré-requisitos
 - .NET 10 SDK
 - Docker

@@ -5,35 +5,35 @@ API REST simples em .NET para gerenciamento de produtos com Swagger habilitado.
 ## Estrutura do Projeto
 ProductApi/
 ├── .github/
-│&nbsp;&nbsp; └── workflows/
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── ci-dotnet.yml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # build e testes .NET
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── docker-publish.yml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # build e publish da imagem (GHCR)
+│   └── workflows/
+│       ├── ci-dotnet.yml
+│       └── docker-publish.yml
 ├── .editorconfig
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 ├── Dockerfile
-├── global.json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # (opcional) fixa SDK do .NET
+├── global.json
 ├── src/
-│&nbsp;&nbsp; └── ProductApi/
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── ProductApi.csproj&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # VS project (ícone do Visual Studio)
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── Domain/
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │&nbsp;&nbsp; └── Product.cs
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── Application/
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │&nbsp;&nbsp; ├── DTOs/
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │&nbsp;&nbsp; │&nbsp;&nbsp; └── ProductDto.cs
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │&nbsp;&nbsp; └── Mappers/
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── ProductMapper.cs
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── WebApi/
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │&nbsp;&nbsp; └── Controllers/
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── ProductController.cs
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── Program.cs
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── appsettings.json
+│   └── ProductApi/
+│       ├── ProductApi.csproj
+│       ├── Domain/
+│       │   └── Product.cs
+│       ├── Application/
+│       │   ├── DTOs/
+│       │   │   └── ProductDto.cs
+│       │   └── Mappers/
+│       │       └── ProductMapper.cs
+│       ├── WebApi/
+│       │   └── Controllers/
+│       │       └── ProductController.cs
+│       ├── Program.cs
+│       └── appsettings.json
 └── tests/
-&nbsp;&nbsp;&nbsp; └── ProductApi.Tests/
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── ProductApi.Tests.csproj
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── ProductMapperTests.cs
+    └── ProductApi.Tests/
+        ├── ProductApi.Tests.csproj
+        └── ProductMapperTests.cs
 
 ## Pré-requisitos
 - .NET 10 SDK

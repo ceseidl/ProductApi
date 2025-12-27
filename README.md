@@ -3,6 +3,7 @@
 API REST simples em .NET para gerenciamento de produtos com Swagger habilitado.
 
 ## Estrutura do Projeto
+
 ProductApi/
 ├── .github/
 │   └── workflows/

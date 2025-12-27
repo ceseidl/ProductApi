@@ -4,6 +4,9 @@ API REST simples em .NET para gerenciamento de produtos com Swagger habilitado.
 
 ## Estrutura do Projeto
 
+## 📂 Estrutura do Projeto
+
+```text
 ProductApi/
 ├── .github/
 │   └── workflows/
@@ -35,7 +38,6 @@ ProductApi/
     └── ProductApi.Tests/
         ├── ProductApi.Tests.csproj
         └── ProductMapperTests.cs
-
 
 
 ## Pré-requisitos
